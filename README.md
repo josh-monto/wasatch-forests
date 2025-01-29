@@ -1,6 +1,6 @@
 # wasatch-forests
 
-This application is currently running at www.wasatch-forests.us.
+This application is currently running at www.wasatch-forests.info.
 
 The application displays 144 aerial image segmentations into species labels.
 
