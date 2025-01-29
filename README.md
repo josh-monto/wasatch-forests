@@ -21,4 +21,4 @@ I annotated these 6 images manually using the application GIMP to create partial
 
 Once the model was created, prediction images were made for all 144 images in the dataset (predict_wasatch.py), then compressed to ease memory needs for display (compress_images.py). Each image was also downloaded with text information related to them, from which bounding coordinates were extracted and saved to a new text file (extract_coordinates.py).
 
-A Dash app was then created using the dash-leaflet library for display (wasatch_map_app.py). The compressed images and coordinates are found in the "assets" folder. The app is hosted using Pythonanywhere and can be viewed at www.wasatch-forests.info.
+A Dash app was then created using the dash-leaflet library for display (wasatch_map_app.py). The compressed images and coordinates are found in the "assets" folder. Map tiles were generated using gdal, for quick loading of the predicted images. The app is hosted using Pythonanywhere and can be viewed at www.wasatch-forests.info.
