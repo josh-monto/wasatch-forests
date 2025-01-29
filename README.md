@@ -2,7 +2,7 @@
 
 This application is currently running at www.wasatch-forests.info.
 
-The application displays 144 aerial image segmentations into species labels.
+The application displays 144 aerial image segmentations labeled by species/group.
 
 The categories and colors for these labels are as follows:
 
